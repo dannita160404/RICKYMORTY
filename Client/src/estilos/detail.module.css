@@ -1,0 +1,62 @@
+.contenedor{
+   display: flex;    
+}
+
+.contenedorimagen{
+ padding: 50px;
+ width: 1000px;
+ background-color: rgba(0, 0, 0, 0.375);
+
+}
+
+
+.imagen{
+    
+    height: 500px;
+    border-radius: 20%;
+    box-shadow: 0 8px 30px 8px rgba(44, 245, 700  , 100);
+}
+
+.contenedorletras{
+    text-align: center;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.774);
+    position: relative;
+    font: bold 200% monospace;
+    padding: 0px 60px;
+    box-shadow: 0 8px 30px 8px rgba(44, 245, 69  , 100);
+    
+   
+}
+
+.name{
+  color:  rgb(90, 244, 48);
+    font: bold 350% monospace;
+    padding: 0px;
+    background-color: rgb(77, 124, 30);
+    box-shadow: 0 8px 30px 8px rgba(44, 245, 69  , 100);
+
+}
+
+.status{
+    color: rgb(0, 0, 0);
+    
+
+}
+.specie{
+  color: black;
+}
+
+.gener{
+    color: black;
+
+}
+
+.origin{
+    color: black;
+
+}
+
+.span{
+    color:  rgb(76, 101, 50);
+}

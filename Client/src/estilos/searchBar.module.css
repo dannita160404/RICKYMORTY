@@ -1,0 +1,39 @@
+
+
+
+.contenedor{
+    margin: auto;
+    text-align: center;
+  background-image: url(./imagenes/fondoeditado.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+    height: 400px;
+}
+
+.input{
+    margin-top: 300px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    opacity: 75%;
+    padding: 10px;
+}
+
+.boton{
+    background-color: chartreuse;
+    height: 32px;
+    width: 100px;
+ border-radius: 5%;
+    color: black;
+    font: bold 120% monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+    
+}
+.boton:hover{
+  color:  rgb(77, 124, 30);;
+}
+
+

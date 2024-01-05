@@ -1,0 +1,108 @@
+:root{
+  --color-letra: rgb(96, 192, 0);
+  --tamaño-letra: 1rem;
+
+}
+
+:hover{
+  --main-bg-color: brown;
+
+  --tipo-de-letra: ;
+}
+.contenedorImagen{
+  height: 100%;
+  width: auto;
+  
+
+}
+.contenedor{
+  padding: 40px;
+  width: 450px;
+  height: 220px;
+  margin: 60px 10px 50px 50px;
+  display: inline-flex;
+
+  align-items: center;
+ 
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 8px 30px 8px rgba(44, 245, 69  , 100);
+
+
+   
+}
+.contendorletras{
+ 
+  padding: 28px ;
+  font-family:  'Times New Roman', Times, serif;
+  font-weight: 400;
+  line-height: 1.5rem;
+  
+}
+
+.nombre{
+
+  color: rgb(90, 244, 48);
+  font: bold 120% monospace;
+  font-size: 22px;
+  background-color: rgb(77, 124, 30);
+  padding:2.5px;
+  text-decoration:  rgb(77, 124, 30) ;
+
+}
+
+
+.status{
+  color: rgb(0, 0, 0);
+  font: bold 120% monospace;
+  font-size: var(--tamaño-letra);
+
+  
+}
+
+.species{
+  color: rgb(0, 0, 0);
+  font: bold 120% monospace;
+  font-size: var(--tamaño-letra);
+
+}
+
+.gender{
+  color: rgb(0, 0, 0);
+  font: bold 120% monospace;
+  font-size: var(--tamaño-letra);
+
+}
+
+.origin{
+  color: rgb(0, 0, 0);
+  font: bold 120% monospace;
+  font-size: var(--tamaño-letra);
+
+}
+
+.imagen{
+  color: rgb(0, 0, 0);
+  font: bold 120% monospace;
+
+  height: 100%;
+  width: auto;
+  box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+
+
+
+}
+.contendorletras span{
+  color: rgb(83, 112, 54);
+}
+
+.boton{
+position: relative;
+top: 82px;
+}
+
+.botonfavo{
+ position: relative;
+ bottom: 82px;
+}
+
+
