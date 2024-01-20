@@ -49,7 +49,7 @@ const Favorites = (props ) => {
          status={character.status}
          species={character.species}
          gender={character.gender}
-         origin={character?.origin?.name}
+         origin={character.origin}
          image={character.image}
         // onclose={onclose}
          />
